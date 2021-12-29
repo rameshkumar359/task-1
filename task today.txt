@@ -1,0 +1,483 @@
+1)using for in loop:
+var data=[{
+    id:01,
+    firstname:"ram",
+    lastname:"kumar",
+    emial:"ram4553@gamil.com",
+    age:25,
+    profession:"developer",
+    city:"cheenai",
+    phonenumber:1234554321
+    },{
+    id:02,
+    firstname:"vineeth",
+    lastname:"raj",
+    emial:"vineeth4553@gamil.com",
+    age:25,
+    profession:" junior developer",
+    city:"cheenai",
+    phonenumber:12344844321
+     },{
+         id:03,
+    firstname:"rahul",
+    lastname:"kumar",
+    emial:"rahul4553@gamil.com",
+    age:25,
+    profession:"developer",
+    city:"cheenai",
+    phonenumber:1234554387
+     },
+     {
+          id:04,
+    firstname:"rivin",
+    lastname:"joeshp",
+    emial:"rivin4553@gamil.com",
+    age:25,
+    profession:" junior developer",
+    city:"cheenai",
+    phonenumber:1234654321
+     },{
+          id:05,
+    firstname:"harish",
+    lastname:"kumar",
+    emial:"harish@gamil.com",
+    age:25,
+    profession:"support",
+    city:"cheenai",
+    phonenumber:1234554321
+     },{
+          id:06,
+    firstname:"vignesh",
+    lastname:"kumar",
+    emial:"vignesh4553@gamil.com",
+    age:25,
+    profession:"developer",
+    city:"cheenai",
+    phonenumber:1234554321
+     },{
+          id:07,
+    firstname:"vikram",
+    lastname:"kumar",
+    emial:"vikram4553@gamil.com",
+    age:35,
+    profession:"senior developer",
+    city:"cheenai",
+    phonenumber:1234554661
+     },{
+          id:08,
+    firstname:"naveen",
+    lastname:"kumar",
+    emial:"naveen553@gamil.com",
+    age:25,
+    profession:"developer",
+    city:"cheenai",
+    phonenumber:1234554321
+     },{
+          id:09,
+    firstname:"preetha",
+    lastname:"doll",
+    emial:"preetha4553@gamil.com",
+    age:25,
+    profession:"developer",
+    city:"cheenai",
+    phonenumber:1234554321
+     },{
+          id:10,
+    firstname:"praveen",
+    lastname:"kumar",
+    emial:"praveen4553@gamil.com",
+    age:25,
+    profession:"developer",
+    city:"cheenai",
+    phonenumber:1234554321
+     }]
+     
+     for(i in data)
+     {
+         console.log(`${data[i].firstname} 
+role: ${data[i].profession}`)
+     }
+
+output:
+ram 
+role: developer
+vineeth 
+role:  junior developer
+rahul 
+role: developer
+rivin 
+role:  junior developer
+harish 
+role: support
+vignesh 
+role: developer
+vikram 
+role: senior developer
+naveen 
+role: developer
+preetha 
+role: developer
+praveen 
+role: developer
+
+2)using for of loop:
+var data=[{
+    id:01,
+    firstname:"ram",
+    lastname:"kumar",
+    emial:"ram4553@gamil.com",
+    age:25,
+    profession:"developer",
+    city:"cheenai",
+    phonenumber:1234554321
+    },{
+    id:02,
+    firstname:"vineeth",
+    lastname:"raj",
+    emial:"vineeth4553@gamil.com",
+    age:25,
+    profession:" junior developer",
+    city:"cheenai",
+    phonenumber:12344844321
+     },{
+         id:03,
+    firstname:"rahul",
+    lastname:"kumar",
+    emial:"rahul4553@gamil.com",
+    age:25,
+    profession:"developer",
+    city:"cheenai",
+    phonenumber:1234554387
+     },
+     {
+          id:04,
+    firstname:"rivin",
+    lastname:"joeshp",
+    emial:"rivin4553@gamil.com",
+    age:25,
+    profession:" junior developer",
+    city:"cheenai",
+    phonenumber:1234654321
+     },{
+          id:05,
+    firstname:"harish",
+    lastname:"kumar",
+    emial:"harish@gamil.com",
+    age:25,
+    profession:"support",
+    city:"cheenai",
+    phonenumber:1234554321
+     },{
+          id:06,
+    firstname:"vignesh",
+    lastname:"kumar",
+    emial:"vignesh4553@gamil.com",
+    age:25,
+    profession:"developer",
+    city:"cheenai",
+    phonenumber:1234554321
+     },{
+          id:07,
+    firstname:"vikram",
+    lastname:"kumar",
+    emial:"vikram4553@gamil.com",
+    age:35,
+    profession:"senior developer",
+    city:"cheenai",
+    phonenumber:1234554661
+     },{
+          id:08,
+    firstname:"naveen",
+    lastname:"kumar",
+    emial:"naveen553@gamil.com",
+    age:25,
+    profession:"developer",
+    city:"cheenai",
+    phonenumber:1234554321
+     },{
+          id:09,
+    firstname:"preetha",
+    lastname:"doll",
+    emial:"preetha4553@gamil.com",
+    age:25,
+    profession:"developer",
+    city:"cheenai",
+    phonenumber:1234554321
+     },{
+          id:10,
+    firstname:"praveen",
+    lastname:"kumar",
+    emial:"praveen4553@gamil.com",
+    age:25,
+    profession:"developer",
+    city:"cheenai",
+    phonenumber:1234554321
+     }]
+     
+     for(i of data)
+     {
+         console.log(`${i.firstname} 
+role: ${i.profession}`)
+     }
+
+output:
+ram 
+role: developer
+vineeth 
+role:  junior developer
+rahul 
+role: developer
+rivin 
+role:  junior developer
+harish 
+role: support
+vignesh 
+role: developer
+vikram 
+role: senior developer
+naveen 
+role: developer
+preetha 
+role: developer
+praveen 
+role: developer
+3)using for each loop:
+var data=[{
+    id:01,
+    firstname:"ram",
+    lastname:"kumar",
+    emial:"ram4553@gamil.com",
+    age:25,
+    profession:"developer",
+    city:"cheenai",
+    phonenumber:1234554321
+    },{
+    id:02,
+    firstname:"vineeth",
+    lastname:"raj",
+    emial:"vineeth4553@gamil.com",
+    age:25,
+    profession:" junior developer",
+    city:"cheenai",
+    phonenumber:12344844321
+     },{
+         id:03,
+    firstname:"rahul",
+    lastname:"kumar",
+    emial:"rahul4553@gamil.com",
+    age:25,
+    profession:"developer",
+    city:"cheenai",
+    phonenumber:1234554387
+     },
+     {
+          id:04,
+    firstname:"rivin",
+    lastname:"joeshp",
+    emial:"rivin4553@gamil.com",
+    age:25,
+    profession:" junior developer",
+    city:"cheenai",
+    phonenumber:1234654321
+     },{
+          id:05,
+    firstname:"harish",
+    lastname:"kumar",
+    emial:"harish@gamil.com",
+    age:25,
+    profession:"support",
+    city:"cheenai",
+    phonenumber:1234554321
+     },{
+          id:06,
+    firstname:"vignesh",
+    lastname:"kumar",
+    emial:"vignesh4553@gamil.com",
+    age:25,
+    profession:"developer",
+    city:"cheenai",
+    phonenumber:1234554321
+     },{
+          id:07,
+    firstname:"vikram",
+    lastname:"kumar",
+    emial:"vikram4553@gamil.com",
+    age:35,
+    profession:"senior developer",
+    city:"cheenai",
+    phonenumber:1234554661
+     },{
+          id:08,
+    firstname:"naveen",
+    lastname:"kumar",
+    emial:"naveen553@gamil.com",
+    age:25,
+    profession:"developer",
+    city:"cheenai",
+    phonenumber:1234554321
+     },{
+          id:09,
+    firstname:"preetha",
+    lastname:"doll",
+    emial:"preetha4553@gamil.com",
+    age:25,
+    profession:"developer",
+    city:"cheenai",
+    phonenumber:1234554321
+     },{
+          id:10,
+    firstname:"praveen",
+    lastname:"kumar",
+    emial:"praveen4553@gamil.com",
+    age:25,
+    profession:"developer",
+    city:"cheenai",
+    phonenumber:1234554321
+     }]
+     
+     data.forEach(i=>console.log(`${i.firstname} 
+role: ${i.profession}`))
+     
+output:
+ram 
+role: developer
+vineeth 
+role:  junior developer
+rahul 
+role: developer
+rivin 
+role:  junior developer
+harish 
+role: support
+vignesh 
+role: developer
+vikram 
+role: senior developer
+naveen 
+role: developer
+preetha 
+role: developer
+praveen 
+role: developer
+
+4)using forloop
+var data=[{
+    id:01,
+    firstname:"ram",
+    lastname:"kumar",
+    emial:"ram4553@gamil.com",
+    age:25,
+    profession:"developer",
+    city:"cheenai",
+    phonenumber:1234554321
+    },{
+    id:02,
+    firstname:"vineeth",
+    lastname:"raj",
+    emial:"vineeth4553@gamil.com",
+    age:25,
+    profession:" junior developer",
+    city:"cheenai",
+    phonenumber:12344844321
+     },{
+         id:03,
+    firstname:"rahul",
+    lastname:"kumar",
+    emial:"rahul4553@gamil.com",
+    age:25,
+    profession:"developer",
+    city:"cheenai",
+    phonenumber:1234554387
+     },
+     {
+          id:04,
+    firstname:"rivin",
+    lastname:"joeshp",
+    emial:"rivin4553@gamil.com",
+    age:25,
+    profession:" junior developer",
+    city:"cheenai",
+    phonenumber:1234654321
+     },{
+          id:05,
+    firstname:"harish",
+    lastname:"kumar",
+    emial:"harish@gamil.com",
+    age:25,
+    profession:"support",
+    city:"cheenai",
+    phonenumber:1234554321
+     },{
+          id:06,
+    firstname:"vignesh",
+    lastname:"kumar",
+    emial:"vignesh4553@gamil.com",
+    age:25,
+    profession:"developer",
+    city:"cheenai",
+    phonenumber:1234554321
+     },{
+          id:07,
+    firstname:"vikram",
+    lastname:"kumar",
+    emial:"vikram4553@gamil.com",
+    age:35,
+    profession:"senior developer",
+    city:"cheenai",
+    phonenumber:1234554661
+     },{
+          id:08,
+    firstname:"naveen",
+    lastname:"kumar",
+    emial:"naveen553@gamil.com",
+    age:25,
+    profession:"developer",
+    city:"cheenai",
+    phonenumber:1234554321
+     },{
+          id:09,
+    firstname:"preetha",
+    lastname:"doll",
+    emial:"preetha4553@gamil.com",
+    age:25,
+    profession:"developer",
+    city:"cheenai",
+    phonenumber:1234554321
+     },{
+          id:10,
+    firstname:"praveen",
+    lastname:"kumar",
+    emial:"praveen4553@gamil.com",
+    age:25,
+    profession:"developer",
+    city:"cheenai",
+    phonenumber:1234554321
+     }]
+     for(var i=0;i<data.length;i++)
+     {
+         console.log(`name:${data[i].firstname},
+profession:${data[i].profession}`)
+     }
+     
+output:
+name:ram,
+profession:developer
+name:vineeth,
+profession: junior developer
+name:rahul,
+profession:developer
+name:rivin,
+profession: junior developer
+name:harish,
+profession:support
+name:vignesh,
+profession:developer
+name:vikram,
+profession:senior developer
+name:naveen,
+profession:developer
+name:preetha,
+profession:developer
+name:praveen,
+profession:developer
+
